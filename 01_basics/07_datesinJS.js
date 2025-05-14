@@ -39,4 +39,6 @@ let AssumeDate = new Date()
 // String interpollation
 // `${AssumeDate.getHours()} and the hours is ` 
 
-AssumeDate.toLocaleString('')
+AssumeDate.toLocaleString('default', {
+    weekday:"long",
+})
